@@ -25,9 +25,9 @@
                 responsibilities as a SmartCart user.
               </p>
               <img
-                class="lg:min-h-[30px] w-40 rounded-md object-cover shadow-xl"
+                class="lg:min-h-[30px] item-center justify-center w-40 rounded-md object-cover shadow-xl "
                 src="../assets/SmartCart.3.png"
-                alt="IJ Designs company logo and branding"
+                alt="SmartCart company logo and branding"
               />
             </div>
           </div>
@@ -121,8 +121,8 @@
               Governing Law
             </h4>
             <p class="mb-2 text-sm">
-              These Terms are governed by the laws of [Your Jurisdiction]. Any
-              disputes will be resolved in the courts of [Your Jurisdiction].
+              These Terms are governed by the laws of South Africa. Any
+              disputes will be resolved in the courts of South Africa.
             </p>
             <!-- Divider -->
             <div class="min-h-[1px] min-w-full bg-[#e2e2e2]"></div>

@@ -67,7 +67,7 @@
 
       <p class="font-inter mx-auto mt-12 text-center text-base text-green-400">
         Can’t find the answer you’re looking for? Reach out to our
-        <a href="" class="text-gray-500 font-bold"> customer support team. </a>
+        <a  href="mailto:infoatijdesigns@gmail.com" class="text-gray-500 font-bold"> customer support team. </a>
       </p>
     </div>
   </section>

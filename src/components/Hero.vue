@@ -37,7 +37,7 @@
             class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
           >
             For ,ore imformation vou can
-            <a href="#" class="font-semibold text-green-400"
+            <a  href="mailto:infoatijdesigns@gmail.com" class="font-semibold text-green-400"
               ><span class="absolute inset-0" aria-hidden="true" />Click here
               <span aria-hidden="true">&rarr;</span></a
             >
@@ -58,7 +58,7 @@
           <div class="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              class="rounded-full bg-green-400 px-3.5 py-2.5 text-sm font-semibold text-black shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              class="rounded-full bg-green-400 px-3.5 py-2.5 text-sm font-semibold text-black shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
               >Download from Playstore</a
             >
             <a href="#" class="text-sm/6 font-semibold text-green-400"
