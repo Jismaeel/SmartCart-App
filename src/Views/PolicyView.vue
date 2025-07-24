@@ -25,7 +25,7 @@
                 responsibilities as a SmartCart user.
               </p>
               <img
-                class="lg:min-h-[30px] item-center justify-center w-40 rounded-md object-cover shadow-xl "
+                class="lg:min-h-[30px] item-center justify-center w-40 rounded-md object-cover shadow-xl"
                 src="../assets/SmartCart.3.png"
                 alt="SmartCart company logo and branding"
               />
@@ -121,8 +121,8 @@
               Governing Law
             </h4>
             <p class="mb-2 text-sm">
-              These Terms are governed by the laws of South Africa. Any
-              disputes will be resolved in the courts of South Africa.
+              These Terms are governed by the laws of South Africa. Any disputes
+              will be resolved in the courts of South Africa.
             </p>
             <!-- Divider -->
             <div class="min-h-[1px] min-w-full bg-[#e2e2e2]"></div>
@@ -137,5 +137,47 @@
     </section>
   </div>
 </template>
+<script setup>
+import { useHead } from "@vueuse/head";
 
-<script setup></script>
+useHead({
+  title: "SmartCart - Terms of Service",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Review SmartCart’s Terms of Service to understand your rights and responsibilities when using our grocery list and budget tracking app.",
+    },
+    {
+      name: "keywords",
+      content:
+        "SmartCart, Terms of Service, grocery app, privacy, user agreement, grocery tracking",
+    },
+    { name: "author", content: "SmartCart" },
+    { property: "og:title", content: "SmartCart - Terms of Service" },
+    {
+      property: "og:description",
+      content:
+        "Understand your rights and responsibilities by reading SmartCart’s Terms of Service.",
+    },
+    { property: "og:url", content: "https://smartcart.online/terms" },
+    { property: "og:type", content: "website" },
+    {
+      property: "og:image",
+      content: "https://smartcart.online/images/SmartCartBanner.jpg", // Adjust to your actual image URL
+    },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "SmartCart - Terms of Service" },
+    {
+      name: "twitter:description",
+      content:
+        "Read our terms to stay informed about your SmartCart usage rights.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://smartcart.online/images/SmartCartBanner.jpg", // Same image as OG
+    },
+  ],
+  link: [{ rel: "canonical", href: "https://smartcart.online/terms" }],
+});
+</script>

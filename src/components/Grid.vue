@@ -102,11 +102,15 @@
             <div
               class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2"
             >
-              <img
-                class="h-[min(152px,40cqw)] object-cover"
-                src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-security.png"
-                alt=""
-              />
+               <video
+                class="w-full max-lg:max-w-xs"
+                src="../assets/sercurty.mp4"
+                type="video/mp4"
+                autoplay
+                loop
+                muted
+                playsinline
+              ></video>
             </div>
           </div>
           <div

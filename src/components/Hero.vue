@@ -1,7 +1,5 @@
 <template>
   <div class="bg-black">
-
-
     <div class="relative isolate px-6 pt-14 lg:px-8">
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -37,7 +35,9 @@
             class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
           >
             For ,ore imformation vou can
-            <a  href="mailto:infoatijdesigns@gmail.com" class="font-semibold text-green-400"
+            <a
+              href="mailto:infoatijdesigns@gmail.com"
+              class="font-semibold text-green-400"
               ><span class="absolute inset-0" aria-hidden="true" />Click here
               <span aria-hidden="true">&rarr;</span></a
             >
@@ -57,13 +57,22 @@
           </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="#"
-              class="rounded-full bg-green-400 px-3.5 py-2.5 text-sm font-semibold text-black shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
-              >Download from Playstore</a
+              href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME"
+              target="_blank"
             >
-            <a href="#" class="text-sm/6 font-semibold text-green-400"
-              >Download Apk <span aria-hidden="true">→</span></a
-            >
+              <img
+                class="w-48 "
+                alt="Get it on Google Play"
+                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              />
+            </a>
+
+            <a href="LINK_TO_YOUR_APK_FILE" download>
+              <img
+                src="https://img.shields.io/badge/Download-APK-blue?logo=android&style=for-the-badge"
+                alt="Download APK"
+              />
+            </a>
           </div>
         </div>
       </div>
