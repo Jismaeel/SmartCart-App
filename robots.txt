@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://smartcart-app.github.io/sitemap.xml
+
+# Block access to APK file from search engines (optional - for download security)
+Disallow: /SmartCartBetav1.0.0.apk 
