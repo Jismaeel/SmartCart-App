@@ -61,13 +61,16 @@
               target="_blank"
             >
               <img
-                class="w-48 "
+                class="w-48"
                 alt="Get it on Google Play"
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
               />
             </a>
 
-            <a href="LINK_TO_YOUR_APK_FILE" download>
+            <a
+              href="./src/assets/SmartCartBetav1.0.0.apk"
+              download="SmartCartBetav1.0.0.apk"
+            >
               <img
                 src="https://img.shields.io/badge/Download-APK-blue?logo=android&style=for-the-badge"
                 alt="Download APK"
