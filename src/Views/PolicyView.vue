@@ -160,11 +160,11 @@ useHead({
       content:
         "Understand your rights and responsibilities by reading SmartCart’s Terms of Service.",
     },
-    { property: "og:url", content: "https://smartcart.online/terms" },
+    { property: "og:url", content: "https://smart-cart.site/Policy" },
     { property: "og:type", content: "website" },
     {
       property: "og:image",
-      content: "https://smartcart.online/images/SmartCartBanner.jpg", // Adjust to your actual image URL
+      content: "https://smart-cart.site/images/SmartCartBanner.jpg", // Adjust to your actual image URL
     },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: "SmartCart - Terms of Service" },
@@ -175,9 +175,9 @@ useHead({
     },
     {
       name: "twitter:image",
-      content: "https://smartcart.online/images/SmartCartBanner.jpg", // Same image as OG
+      content: "https://smart-cart.site/images/SmartCartBanner.jpg", // Same image as OG
     },
   ],
-  link: [{ rel: "canonical", href: "https://smartcart.online/terms" }],
+  link: [{ rel: "canonical", href: "https://smart-cart.site/Policy" }],
 });
 </script>
