@@ -140,44 +140,85 @@
 <script setup>
 import { useHead } from "@vueuse/head";
 
+// SEO Meta Tags for Policy/Terms Page
 useHead({
-  title: "SmartCart - Terms of Service",
+  title: "Terms of Service - SmartCart | Privacy Policy & User Agreement",
   meta: [
     {
       name: "description",
       content:
-        "Review SmartCart’s Terms of Service to understand your rights and responsibilities when using our grocery list and budget tracking app.",
+        "Read SmartCart's Terms of Service and Privacy Policy. Understand your rights and responsibilities as a SmartCart user. Legal terms and conditions for app usage.",
     },
     {
       name: "keywords",
       content:
-        "SmartCart, Terms of Service, grocery app, privacy, user agreement, grocery tracking",
+        "SmartCart terms of service, privacy policy, user agreement, legal terms, app conditions, terms and conditions",
     },
-    { name: "author", content: "SmartCart" },
-    { property: "og:title", content: "SmartCart - Terms of Service" },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    // Open Graph tags
+    {
+      property: "og:title",
+      content: "Terms of Service - SmartCart | Privacy Policy & User Agreement",
+    },
     {
       property: "og:description",
       content:
-        "Understand your rights and responsibilities by reading SmartCart’s Terms of Service.",
+        "Read SmartCart's Terms of Service and Privacy Policy. Understand your rights and responsibilities as a SmartCart user.",
     },
-    { property: "og:url", content: "https://smart-cart.site/Policy" },
-    { property: "og:type", content: "website" },
     {
-      property: "og:image",
-      content: "https://smart-cart.site/images/SmartCartBanner.jpg", // Adjust to your actual image URL
+      property: "og:type",
+      content: "website",
     },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "SmartCart - Terms of Service" },
+    {
+      property: "og:url",
+      content: "https://smartcart-app.github.io/Policy",
+    },
+    // Twitter Cards
+    {
+      name: "twitter:card",
+      content: "summary",
+    },
+    {
+      name: "twitter:title",
+      content: "Terms of Service - SmartCart",
+    },
     {
       name: "twitter:description",
       content:
-        "Read our terms to stay informed about your SmartCart usage rights.",
-    },
-    {
-      name: "twitter:image",
-      content: "https://smart-cart.site/images/SmartCartBanner.jpg", // Same image as OG
+        "Read SmartCart's Terms of Service and Privacy Policy. Understand your rights and responsibilities as a SmartCart user.",
     },
   ],
-  link: [{ rel: "canonical", href: "https://smart-cart.site/Policy" }],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://smartcart-app.github.io/Policy",
+    },
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Terms of Service - SmartCart",
+        description:
+          "SmartCart Terms of Service and Privacy Policy. Legal terms and conditions for app usage.",
+        about: {
+          "@type": "SoftwareApplication",
+          name: "SmartCart",
+          applicationCategory: "ShoppingApplication",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "SmartCart Team",
+        },
+        dateModified: "2025-01-01",
+        inLanguage: "en-US",
+      }),
+    },
+  ],
 });
 </script>

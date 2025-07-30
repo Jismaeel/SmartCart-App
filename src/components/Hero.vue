@@ -34,7 +34,7 @@
           <div
             class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
           >
-            For ,ore imformation vou can
+            For more information you can
             <a
               href="mailto:infoatijdesigns@gmail.com"
               class="font-semibold text-green-400"
@@ -59,21 +59,26 @@
             <a
               href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get SmartCart on Google Play Store"
             >
               <img
                 class="w-48"
-                alt="Get it on Google Play"
+                alt="Get SmartCart on Google Play Store"
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                loading="eager"
               />
             </a>
 
             <a
-              href="./src/assets/SmartCartBetav1.0.0.apk"
+              href="/SmartCartBetav1.0.0.apk"
               download="SmartCartBetav1.0.0.apk"
+              aria-label="Download SmartCart APK file directly"
             >
               <img
                 src="https://img.shields.io/badge/Download-APK-blue?logo=android&style=for-the-badge"
-                alt="Download APK"
+                alt="Download SmartCart APK"
+                loading="eager"
               />
             </a>
           </div>

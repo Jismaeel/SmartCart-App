@@ -7,7 +7,9 @@
       ></div>
 
       <!-- Container -->
-      <div class="relative z-10 mx-auto w-full max-w-7xl px-5 py-10 md:px-6 md:py-12 text-white">
+      <div
+        class="relative z-10 mx-auto w-full max-w-7xl px-5 py-10 md:px-6 md:py-12 text-white"
+      >
         <!-- Grid -->
         <div class="grid gap-12 sm:gap-12 md:grid-cols-2">
           <!-- Content -->
@@ -16,18 +18,26 @@
               <div class="mr-1 h-2 w-2 rounded-full bg-black"></div>
               <p class="text-sm text-black">SmartCart</p>
             </div>
-            <p class="text-sm text-gray-300 sm:text-xl">
-              About SmartCart.
-            </p>
+            <p class="text-sm text-gray-300 sm:text-xl">About SmartCart.</p>
             <!-- Title -->
-            <h1 class="mb-2 text-4xl font-bold md:text-6xl md:mb-8 text-green-400">
+            <h1
+              class="mb-2 text-4xl font-bold md:text-6xl md:mb-8 text-green-400"
+            >
               SmartCart.
             </h1>
             <p class="text-sm text-gray-300 sm:text-xl">
-              SmartCart is a grocery list app designed to make shopping simpler, faster, and more budget-friendly. The idea behind it is to help users plan their shopping in advance, track spending, and avoid impulse buys. By organizing lists, suggesting deals, and syncing with local stores, SmartCart turns a mundane task into an efficient, money-saving habit.            </p>
+              SmartCart is a grocery list app designed to make shopping simpler,
+              faster, and more budget-friendly. The idea behind it is to help
+              users plan their shopping in advance, track spending, and avoid
+              impulse buys. By organizing lists, suggesting deals, and syncing
+              with local stores, SmartCart turns a mundane task into an
+              efficient, money-saving habit.
+            </p>
             <!-- Divider -->
             <div class="mb-8 mt-8 h-px w-full bg-green-400"></div>
-            <div class="mb-6 flex flex-col gap-2 text-sm text-gray-300 sm:text-base md:mb-8">
+            <div
+              class="mb-6 flex flex-col gap-2 text-sm text-gray-300 sm:text-base md:mb-8"
+            >
               <p><strong>2025: </strong>App was created</p>
             </div>
             <!-- Buttons -->
@@ -41,6 +51,8 @@
               <a
                 href="https://www.facebook.com/share/15pu8pc7Mz/?mibextid=qi2Omg"
                 class="flex gap-4 rounded-full border text-green-400 border-green-400 px-6 py-3 hover:bg-green-500 hover:text-black transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Facebook</p>
               </a>
@@ -51,7 +63,8 @@
           <img
             class="lg:min-h-[530px] w-full rounded-md object-cover shadow-xl"
             src="../assets/SmartCart.3.png"
-            alt="IJ Designs company logo and branding"
+            alt="SmartCart app interface showcasing features and design"
+            loading="lazy"
           />
         </div>
       </div>
@@ -59,4 +72,98 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useHead } from "@vueuse/head";
+
+// SEO Meta Tags for About Page
+useHead({
+  title: "About SmartCart - Grocery List App | Smart Shopping Made Simple",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Learn about SmartCart, the grocery list app designed to make shopping simpler, faster, and more budget-friendly. Plan shopping in advance, track spending, and avoid impulse buys.",
+    },
+    {
+      name: "keywords",
+      content:
+        "SmartCart about, grocery list app, shopping planner, budget tracking, smart shopping, company information, app features",
+    },
+    // Open Graph tags
+    {
+      property: "og:title",
+      content:
+        "About SmartCart - Grocery List App | Smart Shopping Made Simple",
+    },
+    {
+      property: "og:description",
+      content:
+        "Learn about SmartCart, the grocery list app designed to make shopping simpler, faster, and more budget-friendly. Plan shopping in advance, track spending, and avoid impulse buys.",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
+      property: "og:url",
+      content: "https://smartcart-app.github.io/About",
+    },
+    {
+      property: "og:image",
+      content: "https://smartcart-app.github.io/src/assets/SmartCart.3.png",
+    },
+    // Twitter Cards
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: "About SmartCart - Grocery List App",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Learn about SmartCart, the grocery list app designed to make shopping simpler, faster, and more budget-friendly.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://smartcart-app.github.io/src/assets/SmartCart.3.png",
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://smartcart-app.github.io/About",
+    },
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        name: "About SmartCart",
+        description:
+          "SmartCart is a grocery list app designed to make shopping simpler, faster, and more budget-friendly. The idea behind it is to help users plan their shopping in advance, track spending, and avoid impulse buys.",
+        about: {
+          "@type": "SoftwareApplication",
+          name: "SmartCart",
+          applicationCategory: "ShoppingApplication",
+          description:
+            "A grocery list app designed to make shopping simpler, faster, and more budget-friendly.",
+          operatingSystem: "Android",
+          dateCreated: "2025",
+          author: {
+            "@type": "Organization",
+            name: "SmartCart Team",
+            email: "infoatijdesigns@gmail.com",
+            sameAs:
+              "https://www.facebook.com/share/15pu8pc7Mz/?mibextid=qi2Omg",
+          },
+        },
+      }),
+    },
+  ],
+});
+</script>

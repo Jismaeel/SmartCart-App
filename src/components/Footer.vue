@@ -8,7 +8,11 @@
           href="javascript:void(0);"
           class="mb-8 inline-block w-52 h-auto text-black"
         >
-          <img src="../assets/Dark mode.png" alt="" class="inline-block" />
+          <img
+            src="../assets/Dark mode.png"
+            alt="SmartCart logo"
+            class="inline-block"
+          />
         </a>
         <div class="text-center font-semibold">
           <RouterLink
@@ -55,9 +59,7 @@
             </svg>
           </a>
           <button
-            @click.prevent="
-              sendWhatsAppMessage()
-            "
+            @click.prevent="sendWhatsAppMessage()"
             class="mx-auto flex-col flex max-w-6 items-center justify-center"
           >
             <svg

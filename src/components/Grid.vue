@@ -36,7 +36,8 @@
                 <img
                   class="size-full object-cover object-top"
                   src="../assets/homepage.jpg"
-                  alt=""
+                  alt="SmartCart app homepage showing shopping list features and interface"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -61,7 +62,7 @@
               <p
                 class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center"
               >
-               The Performance for the app reaches up 1.05 seconds.
+                The Performance for the app reaches up 1.05 seconds.
               </p>
             </div>
             <div
@@ -96,13 +97,13 @@
               <p
                 class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center"
               >
-              All your data is protected an sercured.
+                All your data is protected an sercured.
               </p>
             </div>
             <div
               class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2"
             >
-               <video
+              <video
                 class="w-full max-lg:max-w-xs"
                 src="../assets/sercurty.mp4"
                 type="video/mp4"
